@@ -5,11 +5,10 @@ import sys
 dataset = sys.argv[1]
 
 # Load data
-data_path = 'data/{}/GSE60361_C1-3005-Expression.txt.gz'.format(dataset)
+data_path = 'data/{}/brain.csv'.format(dataset)
 save_path = 'data/{}/data.tsv'.format(dataset)
-# Original shape: [n_gene, n_cell]
-# data = pd.read_csv(data_path, index_col=0, sep='\t')
-data = pd.read_csv(data_path, delimiter = '\t', index_col=0)
+data = pd.read_csv(data_path, index_col=0)
+data = data.T
 cells = data.columns.values
 genes = data.index.values
 # After transformation: [n_cell, n_gene]
