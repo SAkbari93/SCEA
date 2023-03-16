@@ -34,7 +34,7 @@ python SCEA.py [dataset address] [number of clusters]
 ```
 The following command can be used for mouse_brain data.
 ```Bash
-python SCEA.py mouse_brain 5
+python SCEA.py mouse_brain 4
 ```
 ### Outputs
 Under the folder /result, you will find a text file named pred_Dataset.txt that contains the predicted clustering results.
