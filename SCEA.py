@@ -40,7 +40,7 @@ parser.add_argument('--is_NE', default=True, type=bool, help='use NE denoise the
 parser.add_argument('--PCA_dim', default=512, type=int, help='dimensionality of input feature matrix that transformed by PCA')
 parser.add_argument('--F1', default=64, type=int, help='number of neurons in the 1-st layer of encoder')
 parser.add_argument('--F2', default=16, type=int, help='number of neurons in the 2-nd layer of encoder')
-parser.add_argument('--n_attn_heads', default=4, type=int, help='number of heads for attention')
+parser.add_argument('--n_attn_heads', default=8, type=int, help='number of heads for attention')
 parser.add_argument('--dropout_rate', default=0.4, type=float, help='dropout rate of neurons in autoencoder')
 parser.add_argument('--l2_reg', default=0, type=float, help='coefficient for L2 regularizition')
 parser.add_argument('--learning_rate', default=5e-4, type=float, help='learning rate for training')
