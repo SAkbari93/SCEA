@@ -9,7 +9,7 @@
 
  In this work, we used the code of the scGAC article and measured several cases of the effect of different parameters on it. 
  We also added a section to it. But it should be noted that scGAC code was the starting point for our research, 
- and much of the SCEA project is similar to scGAC.
+ and much of the SCEA project is similar to scGAC(https://doi.org/10.1093/bioinformatics/btac099).
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
